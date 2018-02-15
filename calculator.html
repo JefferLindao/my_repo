@@ -12,6 +12,10 @@
 			var num = document.getElementById("n1");
 			num.value = Math.sin(num.value*0.2*Math.PI/360.0);
 		}
+		function cuatro() {
+			var num = document.getElementById("n1");
+			num.value = Math.pow(num.value, 4);
+		}
 	</script>
 </head>
 
@@ -22,5 +26,6 @@
 	<input type="text" id="n1"><p>
 	<button onclick="cube()"> x^3 </button>
 	<button onclick="seno()"> SENO </button>
+	<button onclick="cuatro()"> x^4 </button>
 </body>
 </html>
